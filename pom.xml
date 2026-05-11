@@ -12,10 +12,10 @@
     </parent>
 
     <groupId>com.demo</groupId>
-    <artifactId>upi-offline-mesh</artifactId>
+    <artifactId>offline-upi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>upi-offline-mesh</name>
-    <description>Offline UPI via Bluetooth Mesh - Demo Backend</description>
+    <name>offline-upi</name>
+    <description>Offline UPI via Bluetooth - Demo Backend</description>
 
     <properties>
         <java.version>17</java.version>
@@ -40,8 +40,8 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
             <scope>runtime</scope>
         </dependency>
 
